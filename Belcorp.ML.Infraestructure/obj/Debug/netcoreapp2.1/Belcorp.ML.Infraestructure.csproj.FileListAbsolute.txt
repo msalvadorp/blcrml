@@ -1,0 +1,9 @@
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.deps.json
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.dll
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.pdb
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.csprojAssemblyReference.cache
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.AssemblyInfo.cs
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.dll
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.pdb

@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj",
+        "projectName": "Belcorp.ML.Entity",
+        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj",
+        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
+        "projectName": "Belcorp.ML.Infraestructure",
+        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj",
+        "projectName": "Belcorp.ML.Lambda",
+        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj",
+        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj": {
+                "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj"
+              },
+              "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AWSSDK.SageMaker": {
+              "target": "Package",
+              "version": "[3.3.100.4, )"
+            },
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.Json": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

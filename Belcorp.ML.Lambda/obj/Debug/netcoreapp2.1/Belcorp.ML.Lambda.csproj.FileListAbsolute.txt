@@ -1,0 +1,16 @@
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Lambda.deps.json
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Lambda.runtimeconfig.json
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Lambda.runtimeconfig.dev.json
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Lambda.dll
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.csprojAssemblyReference.cache
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.csproj.CoreCompileInputs.cache
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.AssemblyInfoInputs.cache
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.AssemblyInfo.cs
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Lambda.pdb
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Entity.dll
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.dll
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Entity.pdb
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.pdb
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.csproj.CopyComplete
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.dll
+C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Lambda\obj\Debug\netcoreapp2.1\Belcorp.ML.Lambda.pdb
