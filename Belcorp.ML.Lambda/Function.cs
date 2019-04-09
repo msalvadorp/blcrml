@@ -27,6 +27,27 @@ namespace Belcorp.ML.Lambda
         {
         }
 
+        public APIGatewayProxyResponse ValidateUser(APIGatewayProxyRequest request, ILambdaContext context)
+        {
+            context.Logger.LogLine("Get Request\n");
+            var resp = request.Body;
+            if (string.IsNullOrEmpty(resp))
+            {
+                return RetornaBadRequest("Debe enviar contenido en el Body");
+            }
+
+            ValidateUserReq createTrainingJobReq = JsonConvert.DeserializeObject<ValidateUserReq>(resp);
+            context.Logger.LogLine("Req " + resp);
+
+            ValidateUserRes createTrainingJobRes = new ValidateUserRes();
+            createTrainingJobRes.Token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MWNlNWUwYi1kMzViLTQ5NDUtYWNhNy1hMzA4Y2I5MzhjNGUiLCJ1c2VybmFtZSI6InRlc3QiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tL3VzLWVhc3QtMV9lWEY2T1B3NDUiLCJpYXQiOjE1MzcxOTgzNjAsIm5iZiI6MTUzNzE5ODM2MCwiZXhwIjoxNTM3MjAxOTYwLCJqdGkiOiI2ZGUyNzA5ZjlmNGQ0MmZkYTFiOTE5Y2JlZDBkNjA4NCJ9.QMddu_77AUR7kn0TBwpDKJoVH7QOcLCOR9nlbRledNma7zSIqISFWHQsDXg0IaLnhkruCUsILwxg4fg9KFSyIckk_xb75YgOdVcgbR1CV_kHRiNJcRn42HmORFqf_AzFCOqTGSpjMWTtAOqRfFLr0sIIu8tHx5ogj6_sT-1I7L8urTNgDRlsd1SGn_Xt1UVQkSgQ-PUCnxf7sdFSOq6jvOpH44uTTLsP3g9TxAQyMkpJGWLwcMqXQlS1N8SlG-xzlTIoKN7Kz5TA73F7C9z1Wifg_A2SrOKY1OdN6F6K-hQK2t2D4fMXQWyhXUqoXEaWq_dROgfL1oi0Mlm2LGFPDw";
+
+            //return RetornaOk<CreateTrainingJobRes>(createTrainingJobRes);
+            return RetornaOk(createTrainingJobRes);
+        }
+
+
+        
         /// <summary>
         /// A Lambda function to respond to HTTP Get methods from API Gateway
         /// </summary>
@@ -38,7 +59,7 @@ namespace Belcorp.ML.Lambda
             var resp = request.Body;
             if (string.IsNullOrEmpty(resp))
             {
-                return RetornaBadRequest("Debe enviar contenido en el Body");
+                return RetornaBadRequest("Debe enviar contenido en el Body CreateTrainingJob");
             }
 
             CreateTrainingJobReq createTrainingJobReq = JsonConvert.DeserializeObject<CreateTrainingJobReq>(resp);
@@ -46,6 +67,25 @@ namespace Belcorp.ML.Lambda
 
             CreateTrainingJobRes createTrainingJobRes = new CreateTrainingJobRes();
             createTrainingJobRes.BankId = createTrainingJobReq.BankId;
+
+            //return RetornaOk<CreateTrainingJobRes>(createTrainingJobRes);
+            return RetornaOk(createTrainingJobRes);
+        }
+
+        public APIGatewayProxyResponse GetStatusTraining(APIGatewayProxyRequest request, ILambdaContext context)
+        {
+            context.Logger.LogLine("Get Request\n");
+            var resp = request.Body;
+            if (string.IsNullOrEmpty(resp))
+            {
+                return RetornaBadRequest("Debe enviar contenido en el Body");
+            }
+
+            GetStatusTrainingReq createTrainingJobReq = JsonConvert.DeserializeObject<GetStatusTrainingReq>(resp);
+            context.Logger.LogLine("Req " + resp);
+
+            GetStatusTrainingRes createTrainingJobRes = new GetStatusTrainingRes();
+            createTrainingJobRes.Status = "COMPLETED";
 
             //return RetornaOk<CreateTrainingJobRes>(createTrainingJobRes);
             return RetornaOk(createTrainingJobRes);
@@ -72,6 +112,28 @@ namespace Belcorp.ML.Lambda
             return RetornaOk(predictionDataRes);
         }
 
+        public APIGatewayProxyResponse GetStatusPrediction(APIGatewayProxyRequest request, ILambdaContext context)
+        {
+            context.Logger.LogLine("Get Request\n");
+            var resp = request.Body;
+
+            if (string.IsNullOrEmpty(resp))
+            {
+                return RetornaBadRequest("Debe enviar contenido en el Body");
+            }
+            context.Logger.LogLine("request " + resp);
+            GetStatusPredictionReq predictionDataReq = JsonConvert.DeserializeObject<GetStatusPredictionReq>(resp);
+
+
+            GetStatusPredictionRes predictionDataRes = new GetStatusPredictionRes();
+            predictionDataRes.Status = "COMPLETED";
+
+            //return RetornaOk<CreateTrainingJobRes>(createTrainingJobRes);
+            return RetornaOk(predictionDataRes);
+        }
+
+
+        #region Utilitarios
 
         internal APIGatewayProxyResponse RetornaOk<T>(T data)
         {
@@ -96,6 +158,9 @@ namespace Belcorp.ML.Lambda
 
             return response;
         }
+
+
+        #endregion
 
 
         /// <summary>

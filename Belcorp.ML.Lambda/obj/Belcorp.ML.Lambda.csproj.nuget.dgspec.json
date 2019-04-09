@@ -54,11 +54,6 @@
           "assetTargetFallback": true,
           "warn": true
         }
-      },
-      "runtimes": {
-        "rhel.7.2-x64": {
-          "#import": []
-        }
       }
     },
     "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
@@ -110,11 +105,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true
-        }
-      },
-      "runtimes": {
-        "rhel.7.2-x64": {
-          "#import": []
         }
       }
     },
@@ -190,11 +180,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true
-        }
-      },
-      "runtimes": {
-        "rhel.7.2-x64": {
-          "#import": []
         }
       }
     }

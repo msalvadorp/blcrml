@@ -7,3 +7,12 @@ C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\
 C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.AssemblyInfo.cs
 C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.dll
 C:\Users\miguel.salvador\source\repos\Belcorp.ML\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.pdb
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.deps.json
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.dll
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\bin\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.pdb
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.csprojAssemblyReference.cache
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.csproj.CoreCompileInputs.cache
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.AssemblyInfoInputs.cache
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.AssemblyInfo.cs
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.dll
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Infraestructure\obj\Debug\netcoreapp2.1\Belcorp.ML.Infraestructure.pdb
