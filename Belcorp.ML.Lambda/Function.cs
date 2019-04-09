@@ -63,7 +63,7 @@ namespace Belcorp.ML.Lambda
             }
             context.Logger.LogLine("request " + resp);
             PredictionDataReq predictionDataReq = JsonConvert.DeserializeObject<PredictionDataReq>(resp);
-            
+
 
             PredictionDataRes predictionDataRes = new PredictionDataRes();
             predictionDataRes.OutputDataFile = predictionDataReq.OutputDataConfig;
@@ -105,18 +105,41 @@ namespace Belcorp.ML.Lambda
         /// <returns>The list of blogs</returns>
         public APIGatewayProxyResponse Get(APIGatewayProxyRequest request, ILambdaContext context)
         {
-            context.Logger.LogLine("Get Request\n");
-
-            //Amazon.SageMaker.in
-
-            var response = new APIGatewayProxyResponse
+            if (request != null && request.RequestContext != null)
             {
-                StatusCode = (int)HttpStatusCode.OK,
-                Body = "Hello AWS Serverless",
-                Headers = new Dictionary<string, string> { { "Content-Type", "text/plain" } }
-            };
+                context.Logger.LogLine("Get Path " + request.Path);
 
-            return response;
+                context.Logger.LogLine("Get ResourcePath " + request.RequestContext.ResourcePath);
+                context.Logger.LogLine("Get RequestContext.Path " + request.RequestContext.Path);
+
+                switch (request.RequestContext.Path)
+                {
+                    case "/ml/createtrainingjob":
+                        return CreateTrainingJob(request, context);
+                    case "/ml/predictiondata":
+                        return PredictionData(request, context);
+                    default:
+                        return RetornaOk("Ruta de Api Gateway no mapeada");
+                }
+                
+            }
+            else
+            {
+                context.Logger.LogLine("Get Path, No se recibio request");
+
+                return RetornaOk("No se ejecuto desde el Api Gateway");
+            }
+
+            ////Amazon.SageMaker.in
+
+            //var response = new APIGatewayProxyResponse
+            //{
+            //    StatusCode = (int)HttpStatusCode.OK,
+            //    Body = "Hello AWS Serverless",
+            //    Headers = new Dictionary<string, string> { { "Content-Type", "text/plain" } }
+            //};
+
+            //return response;
         }
     }
 }

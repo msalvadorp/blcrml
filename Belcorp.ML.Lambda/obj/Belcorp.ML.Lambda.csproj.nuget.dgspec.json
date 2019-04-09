@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj": {}
+    "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj": {
+    "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj",
+        "projectUniqueName": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj",
         "projectName": "Belcorp.ML.Entity",
-        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj",
-        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\obj\\",
+        "projectPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj",
+        "packagesPath": "C:\\Users\\Miguelon\\.nuget\\packages\\",
+        "outputPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Miguelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,22 +54,27 @@
           "assetTargetFallback": true,
           "warn": true
         }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
+    "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
+        "projectUniqueName": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
         "projectName": "Belcorp.ML.Infraestructure",
-        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\obj\\",
+        "projectPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Miguelon\\.nuget\\packages\\",
+        "outputPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Miguelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,22 +111,27 @@
           "assetTargetFallback": true,
           "warn": true
         }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj": {
+    "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj",
+        "projectUniqueName": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj",
         "projectName": "Belcorp.ML.Lambda",
-        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj",
-        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Lambda\\obj\\",
+        "projectPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Lambda\\Belcorp.ML.Lambda.csproj",
+        "packagesPath": "C:\\Users\\Miguelon\\.nuget\\packages\\",
+        "outputPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Lambda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Miguelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,11 +144,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj": {
-                "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj"
+              "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj": {
+                "projectPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Entity\\Belcorp.ML.Entity.csproj"
               },
-              "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj"
+              "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
+                "projectPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj"
               }
             }
           }
@@ -180,6 +190,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true
+        }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
         }
       }
     }

@@ -1,0 +1,16 @@
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.deps.json
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.runtimeconfig.json
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.runtimeconfig.dev.json
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.dll
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.pdb
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Entity.dll
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Infraestructure.dll
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Entity.pdb
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\bin\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Infraestructure.pdb
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.csprojAssemblyReference.cache
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.csproj.CoreCompileInputs.cache
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.AssemblyInfoInputs.cache
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.AssemblyInfo.cs
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.csproj.CopyComplete
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.dll
+D:\VIsualStudio\2019\Guthub\blcrml\Belcorp.ML.Lambda\obj\Release\netcoreapp2.1\rhel.7.2-x64\Belcorp.ML.Lambda.pdb

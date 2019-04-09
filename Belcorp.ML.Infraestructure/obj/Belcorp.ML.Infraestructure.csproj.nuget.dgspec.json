@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {}
+    "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
+    "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
+        "projectUniqueName": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
         "projectName": "Belcorp.ML.Infraestructure",
-        "projectPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\miguel.salvador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.salvador\\source\\repos\\Belcorp.ML\\Belcorp.ML.Infraestructure\\obj\\",
+        "projectPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\Belcorp.ML.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Miguelon\\.nuget\\packages\\",
+        "outputPath": "D:\\VIsualStudio\\2019\\Guthub\\blcrml\\Belcorp.ML.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\miguel.salvador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Miguelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true
+        }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
         }
       }
     }
